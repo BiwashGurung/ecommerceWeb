@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+</head>
+
+<style>
+    .product-detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.product-image img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.add-to-cart {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3;
+}
+
+</style>
+<body>
+
+    <div class="product-detail-container">
+        <div class="product-image">
+            <img src="/assest/product/camera.jpg" alt="Product Image">
+        </div>
+        <div class="product-info">
+            <h1>Product Name</h1>
+            <p>Price: $10</p>
+            <p>Stock: 20</p>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec eros quam.</p>
+            <!-- Add to Cart Button -->
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+</body>
+</html>
